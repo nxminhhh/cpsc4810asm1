@@ -4,3 +4,4 @@ import numpy as np
 flights = pd.read_csv('flightdelays.csv')
 print(flights[flights['Origin']=='SFO'][['ArrDelay','Origin']].head(3))
 
+MATTHEW NGUYEN
